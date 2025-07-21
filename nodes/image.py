@@ -339,8 +339,11 @@ class CImageLoadPathWithMetadata(CImageLoadWithMetadata):
     @classmethod
     def INPUT_TYPES(cls):
         return {
-            "required": { "image path": ("STRING",)}
+            "required": { "image_path": ("STRING",)}
         }
+    
+    def execute(self, image_path):
+        super().execute(image_path)
 
 
 class CImageSaveWithExtraMetadata(SaveImage):
