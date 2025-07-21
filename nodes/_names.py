@@ -51,6 +51,8 @@ class CLASSES(Enum):
 
     CIMAGE_LOAD_METADATA_NAME = 'Load image with metadata [Crystools]'
     CIMAGE_LOAD_METADATA_DESC = prefix + 'Load image with metadata'
+    CIMAGE_LOAD_PATH_METADATA_NAME = 'Load image from path with metadata [Crystools]'
+    CIMAGE_LOAD_PATH_METADATA_DESC = prefix + 'Load image from path with metadata'
     CIMAGE_GET_RESOLUTION_NAME = 'Get resolution [Crystools]'
     CIMAGE_GET_RESOLUTION_DESC = prefix + 'Get resolution'
     CIMAGE_PREVIEW_IMAGE_NAME = 'Preview from image [Crystools]'
