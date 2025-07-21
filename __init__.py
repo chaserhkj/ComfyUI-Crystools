@@ -51,7 +51,7 @@ NODE_CLASS_MAPPINGS = {
     CLASSES.CPIPE_FROM_ANY_NAME.value: CPipeFromAny,
 
     CLASSES.CIMAGE_LOAD_METADATA_NAME.value: CImageLoadWithMetadata,
-    CLASSES.CIMAGE_LOAD_PATH_METADATA_NAME.value : CImageLoadPathWithMetaData,
+    CLASSES.CIMAGE_LOAD_PATH_METADATA_NAME.value : CImageLoadPathWithMetadata,
     CLASSES.CIMAGE_GET_RESOLUTION_NAME.value: CImageGetResolution,
     CLASSES.CIMAGE_PREVIEW_IMAGE_NAME.value: CImagePreviewFromImage,
     CLASSES.CIMAGE_PREVIEW_METADATA_NAME.value: CImagePreviewFromMetadata,
