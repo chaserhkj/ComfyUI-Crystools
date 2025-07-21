@@ -15,7 +15,7 @@ from .nodes.primitive import CBoolean, CText, CTextML, CInteger, CFloat
 from .nodes.switch import CSwitchBooleanAny, CSwitchBooleanLatent, CSwitchBooleanConditioning, CSwitchBooleanImage, \
   CSwitchBooleanString, CSwitchBooleanMask, CSwitchFromAny
 from .nodes.debugger import CConsoleAny, CConsoleAnyToJson
-from .nodes.image import CImagePreviewFromImage, CImageLoadWithMetadata, CImageLoadPathWithMetaData, \
+from .nodes.image import CImagePreviewFromImage, CImageLoadWithMetadata, CImageLoadPathWithMetadata, \
     CImageGetResolution, CImagePreviewFromMetadata, \
     CImageSaveWithExtraMetadata
 from .nodes.list import CListAny, CListString
